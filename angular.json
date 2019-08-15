@@ -28,6 +28,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
+              "node_modules/bootstrap-css-only/css/bootstrap.min.css",         
+              "node_modules/admin-lte-css/dist/css/AdminLTE.css",
+              "node_modules/admin-lte-css/dist/css/skins/_all-skins.css",
               "src/styles.scss"
             ],
             "scripts": []

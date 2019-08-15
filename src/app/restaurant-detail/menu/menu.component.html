@@ -1,0 +1,11 @@
+<div class="col-md-9 col-xs-12">
+
+    <app-menu-item
+      *ngFor="let item of menu"
+      [menuItem]="item" (add)="shoppingCart.addItem($event)" >
+    </app-menu-item>    
+
+</div>
+<div class="col-md-3 col-xs-12">
+  <app-shopping-cart #shoppingCart></app-shopping-cart>
+</div>

@@ -1,0 +1,29 @@
+.content-header {
+  position: relative;
+  padding: 15px 15px 0 15px;
+  background: transparent;
+}
+.content {
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.jumbotron {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
