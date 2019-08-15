@@ -28,6 +28,7 @@ import { RatingComponent } from './shared/rating/rating.component';
 import { InputComponent } from './shared/input/input.component';
 import { OrderItemsComponent } from './order/order-items/order-items.component';
 import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.co
     RatingComponent,
     InputComponent,
     OrderItemsComponent,
-    DeliveryCostsComponent
+    DeliveryCostsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

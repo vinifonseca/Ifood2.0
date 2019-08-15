@@ -1,3 +1,4 @@
+import { AboutComponent } from './about/about.component';
 import { OrderComponent } from './order/order.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { ReviewsComponent } from './restaurant-detail/reviews/reviews.component';
@@ -22,7 +23,7 @@ const routes: Routes = [
   },
   { path: 'order', component: OrderComponent },
   { path: 'order-summary', component: OrderSummaryComponent },
-  { path: 'about', loadChildren: './about/about.module#AboutModule' },
+  { path: 'about', component: AboutComponent},
   { path: '**', component: HomeComponent },
 ];
 
