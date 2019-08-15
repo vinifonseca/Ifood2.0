@@ -20,7 +20,7 @@ export class RatingComponent implements OnInit {
   ngOnInit() {
   }
 
-  setRate(r: number){
+  setRate(r: number) {
     this.rate = r;
     this.previousRate = undefined;
     this.rated.emit(this.rate);
@@ -39,5 +39,4 @@ export class RatingComponent implements OnInit {
       this.previousRate = undefined;
     }
   }
-
 }

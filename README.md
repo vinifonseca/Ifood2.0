@@ -1,6 +1,4 @@
-# Meat - Angular Application
-
-## 1. Passos para começar
+# Ifood - Angular Application
 
 ### Instalando as Dependências
 
