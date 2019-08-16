@@ -20,7 +20,15 @@
   min-height: 50px;
   border-radius: 0;
 }
-.navbar-nav a {
+.navbar-collapse .active a {
   color: black;
+  background: white;
+}
+.navbar-nav a {
+  color: white;
   font-weight: bold;
+}
+.navbar-nav a:hover {
+  background: white;
+  color: black;
 }

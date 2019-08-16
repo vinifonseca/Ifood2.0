@@ -12,12 +12,11 @@
   padding-right: 15px;
 }
 .jumbotron {
-  background-color: #fff;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
+  height: 70vh;
+}
+.jumbotron h1 {
+  margin-top: 15vh;
 }
 @media screen and (min-width: 768px) {
   .jumbotron {

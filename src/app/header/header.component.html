@@ -5,12 +5,12 @@
           <a [routerLink]="['/']" class="navbar-brand">
             <b>Ifood</b>
           </a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" (click)="collapse = !collapse">
             <i class="fa fa-bars"></i>
           </button>
         </div>
   
-        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <div id="navbar-collapse" [ngClass]="collapse ? 'navbar-collapse pull-left collapse in' : 'collapse navbar-collapse pull-left'">
           <ul class="nav navbar-nav">
             <li routerLinkActive="active">
               <a [routerLink]="['/restaurants']">Restaurantes</a>

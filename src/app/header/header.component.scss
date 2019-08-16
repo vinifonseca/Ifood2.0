@@ -22,9 +22,23 @@
     border-radius: 0;
 }
 
-.navbar-nav {
-    a {
-        color: black;
-        font-weight: bold;
+.navbar-collapse {
+    .active {
+        a {
+            color: black;  
+            background: white;
+        }              
     }
 }
+
+.navbar-nav {  
+    a {
+        color: white;
+        font-weight: bold;
+        &:hover {
+            background: white;
+            color: black;
+        }       
+    }
+}
+
